@@ -1,2 +1,2 @@
-# DoingItLive.github.io
+# DoingItLive
 Website for the Doing It Live Podcast
