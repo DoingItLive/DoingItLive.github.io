@@ -1,0 +1,37 @@
+html, body { 
+	margin: 0; 
+	height: 100%;
+	font-family: 'Gotham Medium', sans-serif;
+	font-size: 100%;
+}
+
+body {
+	background: black no-repeat 50% 50%; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left,rgba(11,45,71,1) 50%,rgba(66,8,9,1) 50%); /*Safari 5.1-6*/
+	background: -o-linear-gradient(left,rgba(11,45,71,1) 50%,rgba(66,8,9,1) 50%); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(left,rgba(11,45,71,1) 50%,rgba(66,8,9,1) 50%); /*Fx 3.6-15*/
+	background: linear-gradient(to right,rgba(11,45,71,1) 50%,rgba(66,8,9,1) 50%); /*Standard*/
+}
+
+#main {
+	background: url(DoingItLive.jpg) no-repeat;
+	height: 100%;
+	width: auto;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	position: relative;
+}
+
+#comingSoon {
+	text-align: center;
+	color: white;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 34.5%;
+	font-size: 100%;
+	display: inline-block;
+	position: absolute;
+}
